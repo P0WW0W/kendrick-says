@@ -1,0 +1,28 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+  title: Kendrick Says
+  baseurl: "" # the subpath of your site, e.g. /blog
+  url:  http://localhost:4000 # the base hostname & protocol for your site
+  # permalink: /:categories/:title/
+  description: > # this means to ignore newlines until "baseurl:"
+    Kendrick says, set to a curated selection of Google Fonts.
+  author:
+      name: "Alexander Adkins"
+      email: "alexander.adkins@icloud.com"
+      website: "http://www.alexanderadkins.com"
+      twitter: handsomecraft
+      github: P0WW0W
+  img: /assets/
+
+  # Build settings
+  markdown: kramdown
+
+  sass:
+      sass_dir: _sass
+      style: :compressed

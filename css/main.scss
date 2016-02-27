@@ -1,0 +1,290 @@
+---
+# The scss file which include files from _sass/
+---
+  @charset 'UTF-8';
+  @import  'typography';
+  @import  'color';
+  @import  'animation';
+
+/*
+ * Basscss Variable Overrides
+ */
+
+
+
+/*
+ * General Classes
+ */
+
+header {
+   padding: 5% 0;
+   display: block;
+   margin: 0;
+  }
+
+  section {
+    padding: 10% 0;
+    display: block;
+    margin: 0;
+  }
+
+  a,
+  a:hover {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  a.show-link,
+  a.show-link:hover {
+    font-weight: bold;
+  }
+
+
+/*
+ * Header Classes
+ */
+
+  header {
+
+    h1 {
+      font-family: "montserrat", sans-serif;
+      font-size: 26em;
+      font-weight: 900;
+      line-height: .75em;
+      text-transform: uppercase;
+    }
+    h3 {
+      font-family: "karla", sans-serif;
+      font-size: 2em;
+      font-weight: 300;
+      font-style: italic;
+    }
+
+    h4 {
+      color: darken($gray,25%);
+      font-weight: 300;
+    }
+
+    img {
+      height: 10em;
+      width: 10em;
+    }
+
+    .k {
+      display: inline-block;
+      max-width: 50%;
+    }
+
+    .dot {
+      filter: brightness(0%);
+      -webkit-filter: brightness(0%);
+      display: inline-block;
+      max-width: 50%;
+      &:hover {
+        filter: brightness(100%);
+        -webkit-filter: brightness(100%);
+      }
+    }
+  }
+
+
+
+/*
+ * The Blacker the Berry
+ */
+
+  #the-blacker-the-berry {
+    .h1 {
+      font-family: "inconsolata", monospace;
+      font-size: 4em;
+      letter-spacing: .25em;
+      line-height: 1.25em;
+      text-transform: uppercase;
+    }
+    .source {
+      color: darken(gray, 25%);
+    }
+  }
+
+/*
+ * Best Rapper Under 25
+ */
+
+  #best-rapper-under-25 {
+    .h1 {
+      color: darken($gray,50%);
+      font-family: "playfair display", serif;
+      font-size: 9em;
+      font-style: italic;
+      line-height: 1em;
+    }
+    .h3 {
+      font-family: "playfair display", serif;
+      font-size: 1.5em;
+    }
+
+    span {
+      margin: 0 -20px;
+    }
+
+    em {
+      color: darken($gray,50%);
+      font-size: 2em;
+    }
+    .source {
+      color: darken(silver, 25%);
+    }
+  }
+
+/*
+ * Poetic Justice
+ */
+
+
+ #poetic-justice {
+   .h1 {
+     font-family: "Vollkorn", serif;
+     font-size: 9em;
+     line-height: 1em;
+     font-weight: 900;
+   }
+   .h3 {
+     font-family: "Lato", serif;
+     font-size: 1.4em;
+     font-weight: 300;
+   }
+   .quote {
+     font-family: "Vollkorn", serif;
+     font-size: 12em;
+     float: left;
+   }
+   .source {
+     color: darken($san-marino, 25%);
+   }
+ }
+
+ /*
+  * Poetic Justice 2
+  */
+
+
+  #poetic-justice-2 {
+    .h2 {
+      font-family: "Work Sans", serif;
+      font-size: 2.6em;
+      font-weight: 200;
+      line-height: 1.2em;
+    }
+    p {
+      // border-top: 1px solid $white;
+    }
+    em {
+      font-size: 1.3em;
+      // font-weight: 300;
+      // margin-right: 3em;
+    }
+    .source {
+      color: darken($rose-quartz, 25%);
+    }
+  }
+
+  /*
+   * Poetic Justice 3
+   */
+
+
+   #backseat-freestyle {
+     .h1 {
+       color: $black;
+       font-family: "PT Mono", serif;
+       font-size: 3.5em;
+       font-weight: 900;
+       text-transform: uppercase;
+     }
+     .h3 {
+       color: $silver;
+       font-family: "PT Mono", serif;
+       font-size: 1.2em;
+       font-weight: 200;
+       text-transform: uppercase;
+     }
+     .space {
+       width: 4%;
+     }
+     .source {
+       color: darken($gray, 25%);
+     }
+   }
+
+  /*
+   * Institutionalized
+   */
+
+
+    #instatutionalized {
+      h1 {
+        font-family: "Open Sans", sans-serif;
+        font-size: 1.6em;
+      }
+      h3 {
+        font-family: "Open Sans", sans-serif;
+        font-size: 1.2em;
+        font-weight: 200;
+      }
+      p {
+        font-family: "Merriweather", monospace;
+        font-size: .9em;
+        font-weight: 200;
+      }
+      hr {
+        background-color: $white;
+        border: none;
+        height: 3px;
+        width: 5em;
+        margin: 0 0 1em 0;
+      }
+      .source {
+        color: lighten($black, 25%);
+      }
+    }
+
+
+  /*
+   * Bitch, Don't Kill My Vibe
+   */
+
+
+  #kill-my-vibe {
+    p {
+      // color: darken($rose-quartz,50%);
+      font-family: "Crimson Text", sans-serif;
+      font-size: 1.6em;
+      line-height: 1.4em;
+      font-weight: 200;
+    }
+    h4 {
+      // color: darken($rose-quartz,10%);
+      font-family: "Crimson Text", sans-serif;
+      font-size: .8em;
+      font-weight: 900;
+      text-align: right;
+      text-transform: uppercase;
+    }
+    hr.left {
+      background-color: $black;
+      border: none;
+      height: 7px;
+      width: 20%;
+      margin: 1em 0 1em 80%;
+    }
+    hr.right {
+      background-color: $black;
+      border: none;
+      height: 7px;
+      width: 20%;
+      margin: 1em 80% 1em 0;
+    }
+    .source {
+      color: darken($silver, 25%);
+    }
+  }

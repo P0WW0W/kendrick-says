@@ -17,13 +17,13 @@
  */
 
 header {
-   padding: 5% 0;
+   padding: 5% 0 0;
    display: block;
    margin: 0;
   }
 
   section {
-    padding: 10% 0;
+    padding: 10%;
     display: block;
     margin: 0;
   }
@@ -45,7 +45,6 @@ header {
  */
 
   header {
-
     h1 {
       font-family: "montserrat", sans-serif;
       font-size: 26em;
@@ -59,22 +58,31 @@ header {
       font-weight: 300;
       font-style: italic;
     }
-
     h4 {
       color: darken($gray,25%);
       font-weight: 300;
     }
-
     img {
       height: 10em;
       width: 10em;
     }
-
+    ul {
+      list-style: none;
+      margin-left: 0;
+      padding-left: 0;
+    }
+    li {
+      padding-left: 1em;
+      text-indent: -1em;
+    }
+    li:before {
+      content: "✕";
+      padding-right: 5px;
+    }
     .k {
       display: inline-block;
       max-width: 50%;
     }
-
     .dot {
       filter: brightness(0%);
       -webkit-filter: brightness(0%);
@@ -114,19 +122,16 @@ header {
     .h1 {
       color: darken($gray,50%);
       font-family: "playfair display", serif;
-      font-size: 9em;
+      font-size: 8em;
       font-style: italic;
-      line-height: 1em;
     }
     .h3 {
       font-family: "playfair display", serif;
       font-size: 1.5em;
     }
-
     span {
       margin: 0 -20px;
     }
-
     em {
       color: darken($gray,50%);
       font-size: 2em;
@@ -275,14 +280,14 @@ header {
       border: none;
       height: 7px;
       width: 20%;
-      margin: 1em 0 1em 80%;
+      margin: 1em 0 3em 80%;
     }
     hr.right {
       background-color: $black;
       border: none;
       height: 7px;
       width: 20%;
-      margin: 1em 80% 1em 0;
+      margin: 3em 80% 1em 0;
     }
     .source {
       color: darken($silver, 25%);

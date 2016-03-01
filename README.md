@@ -9,3 +9,4 @@ Kendrick says, set to a curated selection of Google Fonts.
 * [PT Mono](http://www.google.com/webfonts/specimen/PT+Mono)
 * [PT Serif](http://www.google.com/webfonts/specimen/PT+Serif)
 * [Vollkorn](http://www.google.com/webfonts/specimen/Vollkorn)
+* [Chivo](http://www.google.com/webfonts/specimen/Chivo)

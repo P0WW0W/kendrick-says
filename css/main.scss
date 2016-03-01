@@ -16,24 +16,24 @@
  * General Classes
  */
 
-header {
-   padding: 5% 0;
+  header {
+   padding: 5% 10% 0;
    display: block;
    margin: 0;
+   p {
+     padding-right: 1em;
+   }
   }
-
   section {
-    padding: 10% 0;
+    padding: 10%;
     display: block;
     margin: 0;
   }
-
   a,
   a:hover {
     color: inherit;
     text-decoration: none;
   }
-
   a.show-link,
   a.show-link:hover {
     font-weight: bold;
@@ -45,36 +45,25 @@ header {
  */
 
   header {
-
     h1 {
       font-family: "montserrat", sans-serif;
-      font-size: 26em;
+      font-size: 22em;
       font-weight: 900;
       line-height: .75em;
       text-transform: uppercase;
     }
-    h3 {
-      font-family: "karla", sans-serif;
-      font-size: 2em;
-      font-weight: 300;
-      font-style: italic;
-    }
-
     h4 {
       color: darken($gray,25%);
       font-weight: 300;
     }
-
     img {
       height: 10em;
       width: 10em;
     }
-
     .k {
       display: inline-block;
       max-width: 50%;
     }
-
     .dot {
       filter: brightness(0%);
       -webkit-filter: brightness(0%);
@@ -87,6 +76,27 @@ header {
     }
   }
 
+  section {
+    ul {
+      list-style: none;
+      margin-left: 0;
+      padding-left: 0;
+    }
+    li {
+      padding-left: 1em;
+      text-indent: -1em;
+    }
+    li:before {
+      content: "✕";
+      padding-right: 5px;
+    }
+    h3 {
+      font-family: "karla", sans-serif;
+      font-size: 2em;
+      font-weight: 300;
+      font-style: italic;
+    }
+  }
 
 
 /*
@@ -96,7 +106,7 @@ header {
   #the-blacker-the-berry {
     .h1 {
       font-family: "inconsolata", monospace;
-      font-size: 4em;
+      font-size: 3.8em;
       letter-spacing: .25em;
       line-height: 1.25em;
       text-transform: uppercase;
@@ -114,19 +124,16 @@ header {
     .h1 {
       color: darken($gray,50%);
       font-family: "playfair display", serif;
-      font-size: 9em;
+      font-size: 8em;
       font-style: italic;
-      line-height: 1em;
     }
     .h3 {
       font-family: "playfair display", serif;
       font-size: 1.5em;
     }
-
     span {
       margin: 0 -20px;
     }
-
     em {
       color: darken($gray,50%);
       font-size: 2em;
@@ -143,23 +150,38 @@ header {
 
  #poetic-justice {
    .h1 {
+     color: lighten($moody-blue,15%);
      font-family: "Vollkorn", serif;
      font-size: 9em;
      line-height: 1em;
      font-weight: 900;
    }
-   .h3 {
-     font-family: "Lato", serif;
-     font-size: 1.4em;
-     font-weight: 300;
-   }
-   .quote {
+   h3 {
+     color: darken($moody-blue,30%);
      font-family: "Vollkorn", serif;
-     font-size: 12em;
-     float: left;
+     font-size: 1.8em;
+     font-weight: 900;
+     padding-right: 1em;
+   }
+   p {
+     color: darken($moody-blue,30%);
+     font-family: "Lato", serif;
+     font-size: 1.2em;
+     font-weight: 400;
+     line-height: 1.6em;
+     padding-right: 1em;
+   }
+   .callout {
+     font-size: .8em;
+     font-weight: bold;
+    //  border-top: 2px solid darken($moody-blue,30%);
+    //  border-bottom: 2px solid darken($moody-blue,30%);
+     display: block;
+     margin: 0 0 1em;
+     padding: .5em 0;
    }
    .source {
-     color: darken($san-marino, 25%);
+     color: darken($moody-blue,25%);
    }
  }
 
@@ -175,13 +197,8 @@ header {
       font-weight: 200;
       line-height: 1.2em;
     }
-    p {
-      // border-top: 1px solid $white;
-    }
     em {
       font-size: 1.3em;
-      // font-weight: 300;
-      // margin-right: 3em;
     }
     .source {
       color: darken($rose-quartz, 25%);
@@ -189,7 +206,7 @@ header {
   }
 
   /*
-   * Poetic Justice 3
+   * Backseat Freestyle
    */
 
 
@@ -256,14 +273,12 @@ header {
 
   #kill-my-vibe {
     p {
-      // color: darken($rose-quartz,50%);
       font-family: "Crimson Text", sans-serif;
       font-size: 1.6em;
       line-height: 1.4em;
       font-weight: 200;
     }
     h4 {
-      // color: darken($rose-quartz,10%);
       font-family: "Crimson Text", sans-serif;
       font-size: .8em;
       font-weight: 900;
@@ -275,16 +290,37 @@ header {
       border: none;
       height: 7px;
       width: 20%;
-      margin: 1em 0 1em 80%;
+      margin: 1em 0 3em 80%;
     }
     hr.right {
       background-color: $black;
       border: none;
       height: 7px;
       width: 20%;
-      margin: 1em 80% 1em 0;
+      margin: 3em 80% 1em 0;
     }
     .source {
       color: darken($silver, 25%);
     }
   }
+
+  /*
+   * Alright
+   */
+
+    #alright {
+      h1 {
+        color: $white;
+        font-family: "Chivo", sans-serif;
+        font-size: 3.6em;
+        line-height: .85em;
+        text-transform: uppercase;
+        padding: 0 12px;
+      }
+      .border-left {
+        border-left: 12px solid $white;
+      }
+      .source {
+        color: $white;
+      }
+    }

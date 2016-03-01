@@ -39,6 +39,9 @@
     font-weight: bold;
   }
 
+  footer {
+    border-top: 1px solid $silver;
+  }
 
 /*
  * Header Classes
@@ -184,13 +187,14 @@
 
   #poetic-justice-2 {
     .h2 {
-      font-family: "Work Sans", serif;
-      font-size: 2.6em;
+      font-family: "Vollkorn", serif;
+      font-size: 2em;
       font-weight: 200;
       line-height: 1.2em;
     }
     em {
-      font-size: 1.3em;
+      font-family: "Work Sans", serif;
+      font-size: 1.5em;
     }
     .source {
       color: darken($rose-quartz, 25%);

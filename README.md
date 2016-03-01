@@ -1,7 +1,7 @@
-# kendrick-says
-Kendrick says, set to a curated selection of Google Fonts.
+# Kendrick Says
+[Kendrick Lamar, AKA K-Dot, lyrics set to a curated selection of Google Fonts](http://p0ww0w.github.io/kendrick-says/)
 
-## Featured typefaces
+## Featured Fonts
 * [Inconsolata](http://www.google.com/webfonts/specimen/Inconsolata)
 * [Lato](http://www.google.com/webfonts/specimen/Lato)
 * [Karla](http://www.google.com/webfonts/specimen/Karla)
@@ -10,7 +10,12 @@ Kendrick says, set to a curated selection of Google Fonts.
 * [Open Sans](http://www.google.com/webfonts/specimen/Open+Sans)
 * [Playfair Display](http://www.google.com/webfonts/specimen/Playfair+Display)
 * [PT Mono](http://www.google.com/webfonts/specimen/PT+Mono)
-* [PT Serif](http://www.google.com/webfonts/specimen/PT+Serif)
+* [Montserrat](http://www.google.com/webfonts/specimen/Montserrat)
 * [Vollkorn](http://www.google.com/webfonts/specimen/Vollkorn)
 * [Chivo](http://www.google.com/webfonts/specimen/Chivo)
 * [Work Sans](http://www.google.com/webfonts/specimen/Work+Sans)
+
+
+## More Information
+Maintained by [Alexander Adkins](http://www.alexanderadkins.com)
+I tweet at [@handsomecraft](https://twitter.com/handsomecraft)

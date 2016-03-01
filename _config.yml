@@ -18,7 +18,7 @@
       website: "http://p0ww0w.github.io/kendrick-says/"
       twitter: handsomecraft
       github: P0WW0W
-  img: /assets/
+  img: /kendrick-says/assets/
 
   # Build settings
   markdown: kramdown

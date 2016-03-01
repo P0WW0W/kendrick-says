@@ -6,9 +6,9 @@
   background: linear-gradient(215deg, #7F87C8, #94CFF8, #AA93A5, #3E5AB3);
   background-size: 600% 600%;
 
-  -webkit-animation: dark-flower 100s ease infinite;
-  -moz-animation: dark-flower 100s ease infinite;
-  animation: dark-flower 100s ease infinite;
+  -webkit-animation: dark-flower 30s ease infinite;
+  -moz-animation: dark-flower 30s ease infinite;
+  animation: dark-flower 30s ease infinite;
 
   @-webkit-keyframes dark-flower {
      0%{background-position:0% 50%}

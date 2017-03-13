@@ -19,4 +19,4 @@
 ## More Information
 Maintained by [Alexander Adkins](http://www.alexanderadkins.com)
 
-I tweet at [@handsomecraft](https://twitter.com/handsomecraft)
+I tweet at [@xander_adkins](https://twitter.com/xander_adkins)

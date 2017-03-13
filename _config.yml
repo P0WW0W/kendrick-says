@@ -8,16 +8,16 @@
 # Site settings
   title: Kendrick Says
   baseurl: "/kendrick-says" # the subpath of your site, e.g. /blog
-  url:  http://p0ww0w.github.io # the base hostname & protocol for your site
+  url:  http://xander-adkins.github.io # the base hostname & protocol for your site
   # permalink: /:categories/:title/
   description: > # this means to ignore newlines until "baseurl:"
     Kendrick says, set to a curated selection of Google Fonts.
   author:
       name: "Alexander Adkins"
-      email: "alexander.adkins@icloud.com"
-      website: "http://p0ww0w.github.io/kendrick-says/"
+      email: "hello@alexanderadkins.com"
+      website: "http://xander-adkins.github.io/kendrick-says/"
       twitter: xander_adkins
-      github: P0WW0W
+      github: xander-adkins
   img: /assets
 
   # Build settings

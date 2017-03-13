@@ -1,5 +1,5 @@
 # Kendrick Says
-[Kendrick Lamar, AKA K-Dot, lyrics set to a curated selection of Google Fonts](http://p0ww0w.github.io/kendrick-says/)
+[Kendrick Lamar, AKA K-Dot, lyrics set to a curated selection of Google Fonts](http://xander-adkins.github.io/kendrick-says/)
 
 ## Featured Fonts
 * [Inconsolata](http://www.google.com/webfonts/specimen/Inconsolata)
